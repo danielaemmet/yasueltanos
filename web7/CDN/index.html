@@ -10,18 +10,63 @@
 </head>
 
 <body>
-    <div class="container border border-success border-1 rounded-4">
-        <h1> class container</h1>
-    </div>
+    <!-- 3 columnas identicas usando col -->
+    <br>
+    <div class="container border border-success border-1 text-center my-5">
+        <div class="row">
+            <div class="col border border-primary">cool</div>
+            <div class="col border border-secondary">cool</div>
+            <div class="col border border-danger">cool</div>
 
-    <div class="container-md border border-primary border-1 rounded-4">
-        <h1> class container-md</h1>
+        </div>
     </div>
-
-    <div class="container-fluit border border-danger border-1 rounded-4">
-        <h1> class container-fluit</h1>
+    <!-- 3 columnas identicas usando col-4-->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-4 border border-primary">col-4</div>
+            <div class="col-4 border border-secondary">col-4</div>
+            <div class="col-4 border border-danger">col-4</div>
+        </div>
     </div>
-
+    <!-- 2 columnas identicas y una desigual  -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-2 border border-primary">col-2</div>
+            <div class="col-8 border border-secondary">col-8</div>
+            <div class="col-2 border border-danger">col-2</div>
+        </div>
+    </div>
+    <!-- 2 columnas identicas y una desigual con breakpoint -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-md-2 border border-primary">col-2</div>
+            <div class="col-md-8 border border-secondary">col-8</div>
+            <div class="col-md-2 border border-danger">col-2</div>
+        </div>
+    </div>
+    <!-- 2 columnas identicas y una desigual con 2 breakpoints -->
+    <div class="container text-center my-5">
+        <div class="row">
+            <div class="col-md-2 col-sm-4 border border-primary">md-2 sm-4 Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Omnis expedita perferendis quaerat. Quis illum corporis magni aut cupiditate sunt,
+                totam debitis? Odit voluptate quaerat fugit ipsa, quas tempora voluptates aliquid? </div>
+            <div class="col-md-8 col-sm-8 border border-secondary">md-8 sm-8 Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Eos veniam odit harum rerum suscipit, facere aliquam odio voluptatibus. Explicabo
+                impedit soluta pariatur atque ducimus est, minima blanditiis labore porro dolores?
+                Veritatis magni, fugiat porro sit similique voluptate id sint et illo ipsum, consequuntur quod dolor
+                dolorum fugit, at harum voluptas delectus voluptatem voluptatibus saepe perspiciatis repellendus velit
+                libero? Ipsa, maiores!
+                Ut laboriosam dolor corporis expedita quidem, consequatur exercitationem, maiores iure error id aliquam
+                provident, architecto at adipisci. Earum eligendi obcaecati, officiis saepe voluptates doloremque
+                explicabo unde possimus quisquam iure odit. </div>
+            <div class="col-md-2 col-sm-12 border border-danger">md-2 sm-12 Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Cumque consequuntur in, quia similique, quae quas repellat id excepturi quaerat quis
+                quod voluptatem sit. Dignissimos, voluptates distinctio vitae facere minus dolorum.
+                Distinctio nostrum soluta facere, explicabo iure quod consectetur similique praesentium a non itaque
+                odit in voluptates cumque voluptatibus? Sunt nemo autem impedit quod quisquam, ipsam vel ratione maxime
+                quibusdam exercitationem! </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
